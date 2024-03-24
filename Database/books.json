@@ -1,0 +1,39 @@
+[
+    {
+        "bookId": 17,
+        "name": "Harry Potter",
+        "pages": 267,
+        "genre" : "Fantasy",
+        "author" : {
+            "authorId" : 109,
+            "name" : "J.K. Rowling"
+        }
+    },
+    {
+        "bookId": 54,
+        "name": "Memory Man",
+        "pages": 560
+    },
+    {
+        "bookId": 66,
+        "name" : "Exhalation",
+        "pages" : 368
+    },
+    {
+        "bookId" : 91,
+        "name" : "Babel",
+        "pages" : 400,
+        "author" : {
+            "authorId" : 2,
+            "name" : "R.F. Kuang"
+        },
+        "reviews" : [
+            {
+                "reviewId":67,
+                "rating":5,
+                "description":"super awesome",
+                "user": "Me"
+            }
+        ]
+    }
+]
